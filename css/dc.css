@@ -1,5 +1,52 @@
-/* Custom styles */
-.fill {
-    width:100%;
+/* Custom styling */
+body {
+    background: #f46d3b;
+}
+
+@media (min-width: 550px) {
+    .row:last-child {
+        position:absolute;
+        bottom:0;
+    }
+}
+/* Custom elements */
+#header {
+    position: fixed;
+    width: 150px;
+    height: 66px;
+
+    top: 50%;
+    margin-top:-33px;
+
+    left: 50%;
+    margin-left: -75px;
+
+    background: url('../images/logo-white.png') #f46d3b no-repeat;
+    background-size: cover;
+    background-blend-mode: normal;
+    opacity: 1;
+
+    cursor: pointer;
+}
+
+#nav {
+    position: fixed;
+    left: 0;
+    background: yellow;
+}
+
+/* Custom classes */
+.fill-x {
+    width: 100%;
     max-width: none;
+}
+
+.fill-y {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    max-width: none;
+    height: 100%;
 }
