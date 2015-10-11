@@ -1,14 +1,14 @@
 /* Custom styling */
 body {
-    background: #f46d3b;
+    background: #dfe5d7;
 }
 
-@media (min-width: 550px) {
+/*@media (min-width: 550px) {
     .row:last-child {
         position:absolute;
         bottom:0;
     }
-}
+}*/
 /* Custom elements */
 #header {
     position: fixed;
@@ -21,7 +21,7 @@ body {
     left: 50%;
     margin-left: -75px;
 
-    background: url('../images/logo-white.png') #f46d3b no-repeat;
+    background: url('../images/logo-white.png') #dfe5d7 no-repeat;
     background-size: cover;
     background-blend-mode: normal;
     opacity: 1;
